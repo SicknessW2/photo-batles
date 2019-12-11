@@ -6,7 +6,7 @@ import requests
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 import random
 #------------- [ CONNECT ] -----------
-token = "0e7a9421621cb9c315b0d8acfe7b26f510ba34ef4029cc3a282858d5f4150fabc370e81c9763c4d52820e" #token group
+token = "990f3c165cbc368b89d526714130101d532b27a62f4633ec342e00a18f1c64b9aaf6e0cac390293ef7071" #token group
 group_id = "186306570"# ID group
 vk_session = vk_api.VkApi(token = token) # Обработка access_token
 longpoll = VkBotLongPoll(vk_session, group_id) # Данные для работы в сообществе
